@@ -1,3 +1,39 @@
+# This project was made from turtorial
+
+https://www.youtube.com/watch?v=w7ejDZ8SWv8
+
+# Starting the project
+
+Start project on localhost
+npm start
+To stop
+Ctrl + C
+
+---
+
+Start server
+npm run server
+To stop
+Ctrl + C
+
+---
+
+Making the server
+npm I -g serve
+Basic http server
+
+serve -s build -p 8000
+You can see the site if you go on localhost:8000
+
+Add server to package.json
+"scripts": {
+"start": "react-scripts start",
+"build": "react-scripts build",
+"test": "react-scripts test",
+"eject": "react-scripts eject",
+"server": "json-server --watch db.json --port 5000"
+},
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
